@@ -28,16 +28,16 @@ def handle_empty_input(text):
     return text
 
 def main():
-    # Get user input
+     # Get user input
     text = get_user_input()
 
-    # Handle empty input
+     # Handle empty input
     text = handle_empty_input(text)
 
-    # Count words
+     # Count words
     word_count = count_words(text)
 
-    # Print word count
+     # Print word count
     print_word_count(word_count)
 
 if __name__ == "__main__":
